@@ -929,6 +929,7 @@ img#home_photo2 {
 	visibility: hidden;
 	line-height: 30px;
 }
+.contact_scale div,.contact_scale div a{font-size:10px;}
 #contact_way {
 	margin: 20px auto;
 	width: 1000px;

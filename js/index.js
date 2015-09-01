@@ -33,7 +33,7 @@ $(function(){
 		scrollingSpeed: 500,
 		css3: true,
 		resize: true,
-		anchors: ["page1","page2","page3","page4","page5","page6"],
+		anchors: ["page1","page2","page3","page4","page5"],
 		verticalCentered: false,
 		afterRender: function(){
 			// alert("请各位猎头及HR不要再给我打电话了。。\n\n我已经找到自己的碗了！\n\n谢谢支持！");
@@ -105,25 +105,25 @@ $(function(){
                 });
 				$("#exp_list_to").fadeIn(1000).delay(600).fadeTo(400,0.3);
 			}
+			// if(index==5){
+			// 	$("aside a").eq(4).addClass("selected").siblings().removeClass("selected");
+			// 	$("#demo_content h1").after("<div class='title_en'><h2>· Demo ·</h2></div>");
+			// 	$(".title_en").animate({width:"130px"},1000,function(){
+			// 		$(".title_en h2").slideDown(500);
+			// 	});	
+			// 	var i=-1;
+			// 	$(".demo_scale").each(function() {
+			// 		var $this=$(this);
+			// 		if(!$this.hasClass("b_to_t")){
+			// 			i++;
+			// 			setTimeout(function(){
+			// 		   $this.addClass("b_to_t");
+			// 		   },200*i);
+			// 		}
+			// 	})
+			// }
 			if(index==5){
 				$("aside a").eq(4).addClass("selected").siblings().removeClass("selected");
-				$("#demo_content h1").after("<div class='title_en'><h2>· Demo ·</h2></div>");
-				$(".title_en").animate({width:"130px"},1000,function(){
-					$(".title_en h2").slideDown(500);
-				});	
-				var i=-1;
-				$(".demo_scale").each(function() {
-					var $this=$(this);
-					if(!$this.hasClass("b_to_t")){
-						i++;
-						setTimeout(function(){
-					   $this.addClass("b_to_t");
-					   },200*i);
-					}
-				})
-			}
-			if(index==6){
-				$("aside a").eq(5).addClass("selected").siblings().removeClass("selected");
 				$("#contact_content h1").after("<div class='title_en'><h2>· Contact me ·</h2></div>");
 				$(".title_en").animate({width:"130px"},1000,function(){
 					$(".title_en h2").slideDown(500);
