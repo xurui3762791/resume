@@ -3,7 +3,7 @@
 $(function(){
 	$.ajax({
 		type: "GET",
-		url: "ajax/message.json",
+		url: "ajax/messsage.json",
 		dataType: "json",
 		success: function(data){
 			for(var i in data.about_info){
