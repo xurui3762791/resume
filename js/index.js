@@ -1,4 +1,4 @@
-
+// 拉取本地json数据
 
 $(function(){
 	$.ajax({
